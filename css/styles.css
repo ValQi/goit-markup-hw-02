@@ -1,19 +1,16 @@
+
+/* Бек цвет #ffffff */
+/* Цвет бека героя #2E2F42 */
+/* Цвет заголовков и списка хедера #2E2F42 */
+/* Цвет обычного текста и адреса   #434455 */
+/* Цвет футера текста и Studio  #F4F4FD */
+/* Цвет героя и кнопки #FFFFFF */
+/* Цвет Web и кнопки #4D5AE5 */
+/* Боди */
 body {
   background-color: #ffffff;
-  color: #434455;
+  color: #434455; 
 }
-.hero-section {
-  background-color: #2e2f42;
-}
-.Logo1 {
-  color: #4d5ae5;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.Logo2 {
-  color: #2e2f42;
+.nav-contacts:hover .nav-contacts:focus {
+  color: blue;
 }

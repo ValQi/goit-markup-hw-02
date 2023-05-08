@@ -1,10 +1,19 @@
 body {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
+  color: #434455;
+}
+.hero-section {
+  background-color: #2e2f42;
 }
 .Logo1 {
-    color: #4D5AE5;
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .Logo2 {
-    color: #2E2F42
+  color: #2e2f42;
 }

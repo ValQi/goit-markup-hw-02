@@ -6,11 +6,91 @@
 /* Цвет футера текста и Studio  #F4F4FD */
 /* Цвет героя и кнопки #FFFFFF */
 /* Цвет Web и кнопки #4D5AE5 */
+/* Active text #404BBF */
+
+
 /* Боди */
-body {
-  background-color: #ffffff;
-  color: #434455; 
+
+:root {
+ --primary-text-color:#434455;
+ --secondary-color-text:#2E2F42;
+ --background-color:#ffffff;
+ --accent-color:#404BBF;
+ --primary-brand: #4D5AE5;
+ --primary-font: "Roboto", sans-serif;
+ --secondary-font: "Raleway",sans-serif;
+ --secondary-background: #F4F4FD;
+
 }
-.nav-contacts:hover .nav-contacts:focus {
-  color: blue;
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color); 
+  font-family: var(--primary-font);
+}
+/* Logo */
+.nav-logo {
+  color: var(--primary-brand);
+}
+.nav-menu .nav-link:hover,
+.nav-menu .nav-link:focus {
+color: var(--accent-color);
+}
+/* Nav */
+.address .address-list {
+  color: var(--primary-text-color);
+}
+.address .address-link:hover,
+.address .address-link:focus {
+  color: var(--primary-brand);
+}
+.nav-link.current {
+  color: var(--primary-brand);
+}
+/* Links */
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none
+}
+
+/* Hero Main*/
+.hero-section {
+  background-color: #2E2F42;
+  color: #ffffff;
+}
+.hero-section .hero-buttom {
+  color: #ffffff;
+  background-color: #4D5AE5;
+}
+.hero-section .hero-buttom:hover,
+.hero-section .hero-buttom:focus {
+  background-color: #404BBF;
+}
+
+/* Button */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background);
+}
+.button .button:focus,
+.button-list .button:hover {
+  color: var(--background-color);
+  background-color: var(--primary-brand);
+}
+/* Section */
+.section .section-head {
+  color: var(--secondary-color-text);
+  background-color: var(--fotter-textr);
+}
+/* Footer */
+.footer {
+  background-color: var(--secondary-color-text);
+  color:var(--secondary-background);
+}
+.footer .footer-text {
+  color: var(--secondary-background);
+}
+.footer .footer-logo {
+  color: var(--secondary-background);
 }

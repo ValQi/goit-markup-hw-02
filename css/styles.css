@@ -27,15 +27,16 @@ body {
 }
 /* Logo */
 .logo {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--secondary-color-text)
+  text-transform: uppercase;
+  color: var(--primary-brand);
 }
 .nav-logo {
-  color: var(--primary-brand);
+  color: var(--secondary-color-text)
 }
 /* Nav */
 .nav-menu {

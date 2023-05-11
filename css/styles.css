@@ -204,9 +204,10 @@ line-height: 1.2;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--secondary-background);
+  color: var(--primary-brand);
   text-transform: uppercase;
 }
 .footer-logo-web {
   color: var(--primary-brand);
+  color: var(--secondary-background);
 }

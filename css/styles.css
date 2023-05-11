@@ -106,7 +106,12 @@ color: var(--primary-text-color);
 .filters-buttons .button-filter {
   color: var(--primary-brand);
   background-color: var(--secondary-background);
-  cursor: pointer
+  cursor: pointer;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .button-filter:focus,
 .button-filter:hover {
@@ -176,15 +181,15 @@ color: var(--primary-text-color);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em
-var(--secondary-color-text)
+letter-spacing: 0.02em;
+color: var(--secondary-color-text)
 
 }
 .cards-title .cards-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em
-  var(--primary-text-color)
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 /* Footer */

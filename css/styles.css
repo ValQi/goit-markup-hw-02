@@ -165,12 +165,13 @@ line-height: 1.2;
   line-height: 1.5;
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--secondary-background)
+  color: var(--secondary-background);
+  text-transform: uppercase;
 }
 .footer-logo-web {
   color: var(--primary-brand);

@@ -130,6 +130,7 @@ line-height: 1.5;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .section .section-title {
   font-weight: 700;
@@ -137,16 +138,41 @@ line-height: 1.5;
   line-height: 1.11;
   text-align: center;
 }
-.features-head .features-text {
+.features-title .features-text {
   font-size: 16px;
   line-height: 1.5;
+}
+.example-title .example-text {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color-text);
+}
+/* section team */
+.section-team {
+  background-color: var(--secondary-background);
+}
+.section-team .team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color-text);
+}
+.team-card {
+  background-color: var(--background-color);
 }
 .team-head {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
 }
-.team-head .team-text {
+.section-team .team-text {
   font-size: 16px;
   line-height: 1.5;
 }

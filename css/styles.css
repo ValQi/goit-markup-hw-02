@@ -103,32 +103,20 @@ color: var(--primary-text-color);
 }
 
 /* Button */
-button {
-  font-family: "Roboto";
-  letter-spacing: 0.04em;
-}
-.button {
-  color: var(--primary-brand);
-  background-color: var(--secondary-background);
-  cursor: pointer;
-}
-.button-list {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-
-}
-.filters-button:focus,
-.filters-button:hover {
-  color: var(--background-color);
-  background-color: var(--primary-brand);
-}
-.filters-button {
+.button-filter {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.04em
+}
+.button-filter{
+
+}
+.button-filter:focus,
+.dbutton-filter:hover {
+  color: var(--background-color);
+  background-color: var(--primary-brand); 
 }
 /* Section */
 .section .features-head {
@@ -158,7 +146,7 @@ line-height: 1.5;
   color: var(--secondary-color-text);
 }
 /* section team */
-.section-team {
+.team-image {
   background-color: var(--secondary-background);
 }
 .section-team .team-title {

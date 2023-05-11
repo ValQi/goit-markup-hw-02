@@ -110,11 +110,8 @@ color: var(--primary-text-color);
   line-height: 1.5;
   letter-spacing: 0.04em
 }
-.button-filter{
-
-}
 .button-filter:focus,
-.dbutton-filter:hover {
+.button-filter:hover {
   color: var(--background-color);
   background-color: var(--primary-brand); 
 }
@@ -147,7 +144,7 @@ color: var(--primary-text-color);
 }
 /* section team */
 .team-image {
-  background-color: var(--secondary-background);
+  background-color: var(--background-color)
 }
 .section-team .team-title {
   font-size: 36px;
@@ -156,6 +153,7 @@ color: var(--primary-text-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color-text);
+  background-color: var(--secondary-background);
 }
 .section-team .team-card {
   background-color: var(--background-color);
@@ -174,13 +172,18 @@ color: var(--primary-text-color);
 }
 
 .cards-title .cards-head  {
-  font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em
+var(--secondary-color-text)
+
 }
 .cards-title .cards-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em
+  var(--primary-text-color)
 }
 
 /* Footer */

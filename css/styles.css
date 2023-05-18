@@ -24,6 +24,7 @@ body {
   font-family: var(--primary-font);
   letter-spacing: 0.02em;
 }
+
 /* Logo */
 .logo {
   font-family: var(--secondary-font);
